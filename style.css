@@ -50,7 +50,7 @@
 }
 .nav-links a{
     text-decoration: none;
-    color:  yellow;;
+    color:  yellow;
     transition: color 0.5s;
     border-bottom: solid transparent;
     transition: border-bottom 0.5s;
@@ -117,7 +117,12 @@ h2{
 .projects> ul> li> a{
     color: white;
     text-transform: uppercase;
+    transition: color 0.5s;
 }
+.projects ul li a:hover{
+    color: yellow;
+}
+
 form {
     text-align: center;
 }
