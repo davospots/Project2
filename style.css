@@ -58,7 +58,14 @@
     width: 20%;
     
   }
-  .introduction p{
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+  
+.introduction p{
       text-align: center;
       padding: 20px;
   }
