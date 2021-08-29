@@ -87,3 +87,6 @@ h2{
 .introduction p{
     text-align: center;
 }
+.important{
+    font-weight: bold;
+}
