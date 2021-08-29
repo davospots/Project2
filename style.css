@@ -1,8 +1,27 @@
 .container{
     margin: 0;
 }
-.Navbar{
+
+/*navbar styles */
+.Nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+
+}
+
+    
+    
+
+.left-side .logo img{
+    width: 50px;
+    height: auto;
+    padding-right: 20px;
+    
+}
+ .left-side .name{
+    text-transform: uppercase;
+    padding-top: 19px;
+}
+.logo{
+    display: flex;
 }
