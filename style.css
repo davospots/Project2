@@ -82,4 +82,8 @@ h2{
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
+    
 }  
+.introduction p{
+    text-align: center;
+}
