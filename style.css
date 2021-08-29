@@ -1,12 +1,15 @@
 .container{
     margin: 0;
+    padding: 0;
 }
 
 /*navbar styles */
 .Nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    position: fixed;
+    padding: 20px;
+    
 }
 
 
@@ -14,6 +17,7 @@
     width: 60px;
     height: auto;
     padding-right: 20px;
+    display: block;
     
 }
  .left-side .name{
@@ -56,14 +60,14 @@
 
 
 
-
-.introduction img{
+.banner{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
-    
-  }
+    align-items: center;
+    width: 25%;
+    padding-top: 150px;
+}
 h1{
     text-align: center;
     text-transform: uppercase;
@@ -75,7 +79,7 @@ h1{
   
 .introduction p{
       
-      padding: 20px;
+      
   }
 h2{
     text-align: center;
@@ -86,6 +90,8 @@ h2{
 }  
 .introduction p{
     text-align: center;
+    
+    
 }
 .important{
     font-weight: bold;
