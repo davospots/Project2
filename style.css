@@ -45,7 +45,11 @@
     text-decoration: none;
     color: black;
     transition: color 0.5s;
+    border-bottom: solid transparent;
 }
 .nav-links a:hover {
     color:springgreen;
+    border-bottom: solid black;
+}
+
 }
