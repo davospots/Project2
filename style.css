@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    
 
 }
 
@@ -22,8 +23,8 @@
  .left-side .name{
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: 25px;
-    font-size: 25px;
+    padding-top: 22px;
+    font-size: 20px;
 }
 .logo{
     display: flex;
@@ -34,7 +35,17 @@
 }
 .right-side .nav-links{
     padding-left: 200px;
-    padding-top: 19px;
-    font-size: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
    
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+.nav-links a:hover {
+    color:springgreen;
 }
