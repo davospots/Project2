@@ -93,7 +93,23 @@ h2{
 }
 .important{
     font-weight: bold;
+}    
+.projects{
+    text-align: center;
+    
+}
+.projects ul li{
+    list-style: none;
 }
 form {
     text-align: center;
+}
+.footer-icons ul li {
+    list-style: none;
+    padding: 50px;
+}
+.footer-icons ul{
+    display: flex;
+    justify-content: center;
+    
 }
