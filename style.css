@@ -6,6 +6,7 @@
 .Nav-bar{
     display: flex;
     justify-content: space-between;
+    padding: 25px;
 
 }
 
@@ -13,15 +14,27 @@
     
 
 .left-side .logo img{
-    width: 50px;
+    width: 60px;
     height: auto;
     padding-right: 20px;
     
 }
  .left-side .name{
     text-transform: uppercase;
-    padding-top: 19px;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size: 25px;
 }
 .logo{
     display: flex;
+}
+.right-side{
+    display: flex;
+    
+}
+.right-side .nav-links{
+    padding-left: 200px;
+    padding-top: 19px;
+    font-size: 30px;
+   
 }
