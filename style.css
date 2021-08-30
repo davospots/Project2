@@ -13,10 +13,7 @@
     padding-left: 200px;
     padding-right: 270px;
     
-    
-    
 }
-
 
 .left-side .logo img{
     width: 60px;
@@ -64,7 +61,7 @@
 }
 
 
-/*introduction styles*/
+/*Content section styles*/
 
 
 #banner{
@@ -131,7 +128,7 @@ form {
 }
 .footer-icons ul li {
     list-style: none;
-    padding: 50px;
+    padding: 45px;
 }
 .footer-icons ul{
     display: flex;
